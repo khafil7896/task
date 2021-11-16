@@ -1,0 +1,162 @@
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+.section-bg {
+  overflow: hidden;
+}
+
+.section-bg {
+  background: #3b3b3b;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+ 
+}
+
+.section-title h2::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #fdc134;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.section-bg {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.section-bg .card {
+  border: 0;
+  margin-bottom: 60px;
+  position: relative;
+  background: transparent;
+}
+
+.section-bg .card-img {
+  width: calc(100% + 60px);
+  margin-left: -16px;
+  overflow: hidden;
+  z-index: 9;
+  border-radius: 0;
+}
+
+.section-bg .card-img img {
+  max-width: 94%;
+  transition: all 0.3s ease-in-out;
+}
+
+.section-bg .card-body {
+  z-index: 10;
+  background: #3b3b3b;
+  margin-top: -80px;
+  transition: 0.3s;
+}
+
+.section-bg .card-title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white !important;
+    font-size: 28px
+}
+
+.section-bg .card-title a {
+  color: white;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.section-bg .card-text {
+  color: #5e5e5e;
+}
+
+.section-bg .read-more a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.section-bg .read-more a:hover {
+  color: #fdc134;
+}
+
+.section-bg .card:hover img {
+  transform: scale(1.1);
+}
+
+.section-bg .card:hover .card-body {
+  border-color: #fdc134;
+}
+
+.section-bg .card:hover .card-body .card-title a {
+  color: #fdc134;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #9d6a2b 40%, #353535 100%)
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+  font-family: 'Commissioner', sans-serif;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+  margin-top: 0.805rem;
+}

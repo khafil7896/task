@@ -1,0 +1,116 @@
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+    padding: 60px 0;
+  }
+  
+  .section-bg {
+    background-color: white;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #5f5950;
+  }
+  
+  .section-title h2 span {
+    color: #ffb03b;
+  }
+  
+  .section-title p {
+    margin: 15px auto 0 auto;
+    font-weight: 300;
+  }
+  
+  @media (min-width: 1024px) {
+    .section-title p {
+      width: 50%;
+    }
+  }
+  /*--------------------------------------------------------------
+  # Menu Section
+  --------------------------------------------------------------*/
+  .menu #menu-flters {
+    padding: 0;
+    margin: 0 auto 0 auto;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+  }
+  
+  .menu #menu-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 50px 10px 50px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    color: #444444;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    border: 2px solid #ffb03b;
+    border-radius: 10px;
+  }
+  
+  .menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
+    color: #fff;
+    background: #3d3d3d;
+  }
+  
+  .menu #menu-flters li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu .menu-content {
+    margin-top: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .menu .menu-content a {
+    padding-right: 10px;
+    background: #fff;
+    position: relative;
+    z-index: 3;
+    font-weight: 700;
+    color: #ff9b08;
+  }
+  
+  .menu .menu-content span {
+    background: #fff;
+    position: relative;
+    z-index: 3;
+    padding: 0 10px;
+    font-weight: 600;
+  }
+  
+  .menu .menu-ingredients {
+    font-style: italic;
+    font-size: 14px;
+    font-family: "Comic Neue", sans-serif;
+    color: #948c81;
+  }
+  
+
+  .table td, .table th{
+    text-align: center;
+  }
+
+  @media (max-width: 900px) and (min-width: 300px){
+    .menu #menu-flters li{
+  padding: 5px 15px 5px 15px !important;
+  font-size: 20px !important;
+    }
+  }

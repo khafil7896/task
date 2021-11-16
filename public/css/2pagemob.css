@@ -1,0 +1,51 @@
+.btn_couf {
+    padding: 6px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 700;
+    display: block;
+    width: 120%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: #ffc107;
+    height: 55px;
+  }
+  @media screen and (max-width: 350px)
+  {
+    .btn_couf {
+        padding: 6px;
+        font-size: 14px;
+        text-transform: uppercase;
+        border-radius: 4px;
+        font-weight: 700;
+        display: block;
+        width: 142% !important;
+        cursor: pointer;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        background: #ffc107;
+        height: 55px;
+      }
+  }
+
+  .fa-angle-double-right:before {
+    content: "\f101";
+    font-size: 30px !important;
+}
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    
+      padding-right: 5px;
+      padding-left: 5px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+
+
+  @media only screen and (max-width:1024px) and (min-width:1000px) {
+  .features .icon-box h3 a{
+    font-size: 14px!important;
+  }
+  .features .icon-box{
+    padding: 5px !important;
+  }
+}
